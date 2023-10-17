@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+    <title> Реєстрація </title>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="css"> 
+
+
+</head>
+<body>
+
+<script src="OOOOOOOOOOOO.js">  </script>
+<from>
+    <fieldset>
+        <legend>
+        Реєстрування на мій сайт
+        </legend></br>
+        <laber>
+        <input type="radio" name="title" value="Я мужик">
+        Я мужик
+        </laber>
+        <laber>
+        <input type="radio" name="title" value="Я не мужик">
+        Я не мужик
+        </laber>
+        <laber>
+        <input type="radio" name="title" value="Я ще щось...">
+        Я ще щось...
+        </laber>
+
+
+
+        <p>
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" placeholder=" Ім'я" value="">
+        </p>
+        <p>
+            <label for="surname">Прізвище</label>
+            <input type="tel" id="surname" placeholder=" Прізвище" value="">
+        </p>
+        <p>
+            <label for="phone">Телефон</label>
+            <input type="email" id="phone" placeholder=" Телефон" value="">
+        </p>
+        <p>
+            <label for="email">Електрона пошта</label>
+            <input type="email" id="email" placeholder=" Електрона пошта" value="">
+        </p>
+
+
+
+            <laber>Звідки ви?</laber></br>
+
+            <select>
+                <option>China!</option>
+                <option>China!!</option>
+                <option>China!!!</option>
+                <option>China!!!!</option>
+                <option>China!!!!!</option>
+                <option>China!!!!!!</option>
+                <option>China!!!!!!!</option>
+                <option>China!!!!!!!!</option>
+                <option>China!!!!!!!!!</option>
+                <option>China!!!!!!!!!!</option>
+                
+            </select></br></br>
+
+
+
+
+
+            <input type="password" placeholder="Пароль(тільки цифри)" name="passs" id="inputField">
+            <div id="outputField" class="pasword"></div>
+
+
+            <script>
+                const inputField = document.getElementById("inputField");
+                const outputField = document.getElementById("outputField");
+
+                inputField.addEventListener("input", function () {
+                const inputValue = inputField.value;
+                const digits = inputValue.replace(/[^0-9]/g, '');
+
+                outputField.textContent = digits;
+                });
+            </script>
+
+
+
+
+        </p>
+
+
+
+
+
+        <textarea placeholder="Ваш розклад на день(куди ви ідете, хто з вами живе, скільки часу вас нема в будинку, де ви кладете все цінне, тощо...)" name="area" minlength="15" maxlength="250" rows="4"></textarea>
+
+        <p>
+            <button id="clearButton">Написати ще раз</button>
+
+            <button id="myButton">Відмовитись Писати</button>
+
+            <button type="submit">Просто кнопка)</button>
+        </p>
+
+        <script>
+            const myButton = document.getElementById("myButton");
+            myButton.addEventListener("click", function () {
+            alert(".              Мені всеодно, ось мій сайт!...                      file:///F:/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/HTML");
+            });
+        </script>
+
+
+
+
+        <script>
+            document.getElementById("clearButton").addEventListener("click", function () {     
+            document.getElementById("name").value = "";
+            document.getElementById("surname").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("email").value = "";
+            });
+        </script>
+
+
+
+
+
+
+        <button id="openMultipleWindows" class="btn1">Відправити данні для реєстрації</button>
+
+        <script>
+            const openButton = document.getElementById("openMultipleWindows");
+            openButton.addEventListener("click", function () {
+            for (let i = 0; i < 2; i++) {
+            window.open("file:///F:/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0/HTML");
+            }
+            });
+        </script>
+
+    </fieldset>
+</from>
+
+</body>
+</html>

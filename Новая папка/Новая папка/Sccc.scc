@@ -1,0 +1,154 @@
+body 
+{
+    background-color: rgba(100, 100, 10, 0.75);
+}
+
+
+header
+{
+    height:200px;
+    background: #dddd68;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+.leftt
+{
+    width: 15%;
+    min-height: 665px;
+    text-align: center;
+}
+
+
+
+.ddr
+{
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    font-size: 35px;
+    color: rgba(20, 70, 50, 0.7)
+}
+.ddrr
+{
+    position: absolute;
+    top: 160px;
+    left: 30.6%;
+    font-size: 35px;
+    color: rgba(20, 70, 50, 0.65)
+}
+
+
+.RimWorld
+{
+    padding:10px;
+    font-size: 35px;
+    border: 6px solid rgba(40,30,0,0.9);
+    padding: 40px;
+    background: rgba(140,130,0,0.9);
+    border-radius: 15px;
+}
+.Besidge
+{
+    padding:10px;
+    font-size: 35px;
+    border: 6px solid rgba(40,30,0,0.9);
+    padding: 40px;
+    background: rgba(140,130,0,0.9);
+    border-radius: 15px;
+}
+.Noita
+{
+    padding:10px;
+    font-size: 35px;
+    border: 6px solid rgba(40,30,0,0.9);
+    padding: 40px;
+    background: rgba(140,130,0,0.9);
+    border-radius: 15px;
+}
+.DOS2_DE
+{
+    padding:10px;
+    font-size: 35px;
+    border: 6px solid rgba(40,30,0,0.9);
+    padding: 40px;
+    background: rgba(140,130,0,0.9);
+    border-radius: 15px;
+}
+.TABS
+{
+    padding:10px;
+    font-size: 35px;
+    border: 6px solid rgba(40,30,0,0.9);
+    padding: 40px;
+    background: rgba(140,130,0,0.9);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.Text_Rim
+{
+    margin:50px;
+    background: rgba(140,160,100,0.6);
+    width: 81.94%;
+    min-height: auto;
+    z-index: 50;
+    position: absolute;
+    top: 28.8%;
+    left: 15%;
+}
+.Text_Be
+{
+    margin:50px;
+    background: rgba(140,160,100,0.6);
+    width: 81.94%;
+    min-height: auto;
+    z-index: 50;
+    position: absolute;
+    top: 127.8%;
+    left: 15%;
+}
+.Text_No
+{
+    margin:50px;
+    background: rgba(140,160,100,0.6);
+    width: 81.94%;
+    min-height: auto;
+    z-index: 50;
+    position: absolute;
+    top: 225.8%;
+    left: 15%;
+}
+.Text_DOS
+{
+    margin:50px;
+    background: rgba(140,160,100,0.6);
+    width: 81.94%;
+    min-height: auto;
+    z-index: 50;
+    position: absolute;
+    top: 310.8%;
+    left: 15%;
+}
+.Text_TABS
+{
+    margin:50px;
+    background: rgba(140,160,100,0.6);
+    width: 81.94%;
+    min-height: auto;
+    z-index: 50;
+    position: absolute;
+    top: 422.4%;
+    left: 15%;
+}

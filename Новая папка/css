@@ -1,0 +1,55 @@
+legend 
+{
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: beige;
+}
+
+fieldset
+{
+    margin: 110px;
+    padding: 10px;
+    max-width: 600px;
+    background-color: rgb(85, 129, 115);
+}
+
+body
+{
+    font-family: 'Palatino Liotype', serif;
+    padding: 0px 30px;
+    background-color: rgb(141, 65, 156);
+}
+
+textarea
+{
+    width:500px;
+    /* background-color: blue; */
+}
+
+.btn1 {
+   
+    color: rgb(82, 158, 40);
+    height: 60px;
+    font-weight: 1000;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 5px;
+    padding: 10px;
+    outline:dotted ;
+    border: 2px solid;
+    border-radius: 1px;
+    cursor: pointer;
+   
+  }
+
+  .btn1:hover { background: rgba(1, 95, 40, 0.815); }
+  .btn1:active { background: rgb(22, 199, 46); }
+
+
+  .pasword
+  {
+    background-color: rgb(107, 151, 137);
+    color: rgba(0, 0, 0, 0.3);
+
+  }
